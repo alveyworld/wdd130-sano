@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+}
+
+body{
+    background: #b19f8e;
+}
+
+/* Base styling for the navigation bar */
+nav {
+    background-color: #34180A; /* Deep brown for strong header base */
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Unordered list styling */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Link styling */
+  nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #DE6416; /* Orange pop */
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #CD9972; /* Warm beige on hover */
+  }
+
+  .logo {
+    float: left;
+    width: 58px;
+  }
+  
+  .biopic {
+    width: 300px;
+    padding: 10px;
+    background-color: #6B482F;      /* Soft taupe inner padding */
+    border: 8px solid #DE6416;      /* Medium brown outer frame */
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    grid-column: 1/3;
+  }
+  h1{
+    grid-column: 1/3;
+  }
+  .biopic img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;            /* Slight curve to match frame */
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  p {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #34180A;        /* Deep brown text */
+    margin: 1.5rem;
+    max-width: 600px;      /* Helps with readability */
+  }
+
+  footer {
+    background-color: #34180A; /* Deep brown background */
+    color: #CD9972;            /* Warm beige text */
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    font-size: 0.95rem;
+    border-top: 4px solid #DE6416; /* Burnt orange accent line */
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #DE6416; /* Orange for links */
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  footer ul li a:hover {
+    color: #B19F8E; /* Taupe on hover */
+  }
+
+  .section-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    border-bottom: 1px solid #CD9972; /* Subtle separator line */
+  }
+  
+  .section-icon img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .section-icon img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  
+  
